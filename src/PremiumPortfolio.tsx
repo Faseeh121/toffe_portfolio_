@@ -269,7 +269,7 @@ export function PremiumPortfolio({ onNavigate }: PremiumPortfolioProps) {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.7 }}
                       >
-                        Muhammad Faseeh Anjum
+                        Touseef Ahmad
                       </motion.span>
                     </h1>
                     <motion.h2
@@ -778,9 +778,9 @@ export function PremiumPortfolio({ onNavigate }: PremiumPortfolioProps) {
 
                       <div style={styles.contactMethods}>
                         {[
-                          { label: "Email", value: "faseehj11@gmail.com", icon: "✉️", href: "mailto:faseehj11@gmail.com" },
-                          { label: "LinkedIn", value: "M Faseeh", icon: "💼", href: "https://www.linkedin.com/in/m-faseeh-b02a05361" },
-                          { label: "GitHub", value: "FaseehAnjum", icon: "🐙", href: "https://github.com/FaseehAnjum" },
+                          { label: "Email", value: "ahmadtouseef788@gmail.com", icon: "✉️", href: "mailto:ahmadtouseef788@gmail.com" },
+                          { label: "LinkedIn", value: "Touseef Ahmad", icon: "💼", href: "https://www.linkedin.com/in/touseef-ahmad-123456789" },
+                         // { label: "GitHub", value: "TouseefAhmad", icon: "🐙", href: "https://github.com/TouseefAhmad" },
                         ].map((method, i) => (
                           <motion.a
                             key={i}
