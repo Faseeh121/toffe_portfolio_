@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Production builds
+/dist/
+/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs and diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Testing
+coverage/
+jest-coverage/
+
+# Tooling and caches
+*.tsbuildinfo
+.cache/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db

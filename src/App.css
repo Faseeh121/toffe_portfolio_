@@ -1,0 +1,28 @@
+/* Premium Portfolio Styles */
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  /* Tablet adjustments */
+}
+
+@media (max-width: 768px) {
+  /* Mobile adjustments - ensure text is readable */
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Additional utility classes if needed */
+.gradient-text {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
